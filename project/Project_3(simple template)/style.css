@@ -1,0 +1,170 @@
+/*common css*/
+*{
+    padding: 0;
+    margin: 0;
+}
+.clearfix::after{
+    content:"";
+    display: block;
+    clear: both;
+}
+
+.text-center{
+    text-align: center;
+}
+.websitesize{
+    max-width: 1200px;
+    
+}
+
+/*header css*/
+.header{
+    background-color: #322e26;
+    height: 60px;
+    padding-left: 40px;
+
+   
+}
+.logo{
+    float: left;
+    width: 30%;   
+    text-align: center;
+}
+.logo img {
+    width: 90px;
+    height: auto;
+    margin-top: -14px;
+    margin-bottom: 5px;
+}
+.menu{
+    float: right;
+    width: 70%; 
+    
+}
+.menu ul{
+    text-align: center;
+}
+.menu ul li{
+    display: inline-block;
+          
+}
+.menu ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 0 30px;
+    margin-top: 0px;
+    margin-bottom: 35px;
+    font-size: 20px;
+    border-right: 2px solid #ddd;
+    line-height: 60px;
+    margin-left: -4px;
+    transition: .7s;
+  }
+.menu ul li a:hover{
+    background-color: #6d1014;
+    color: #efd73c;
+}
+
+/*Banner css*/
+.banner-text{
+    color: #ddd;
+
+}
+.banner{
+    background: url(all\ image/coffee_slider.jpg) no-repeat center;
+    background-size: cover;
+    padding: 180px 0px;
+    padding-left: 40px;
+    padding-left: 40px;
+}
+
+.banner-text h1{
+    background-color: rgba(0, 0,0,.5);
+    display: inline-block;
+    padding: 10px 10px;
+    margin-top: 25px;
+    border-radius: 5px;
+   
+}
+
+.banner-text h2{
+    background-color: rgba(217,94,52,.7);
+    max-width: 295px;
+    margin: auto;
+    padding: 10px 10px;
+    border-radius: 5px;
+   
+}
+
+/*service css*/
+.service{    
+    background-color: #eddccc;
+    padding-left: 40px;
+    padding-left: 40px;
+}
+.service h1{
+   padding-top: 30px;
+   color: #6d1014;
+   text-transform: capitalize;
+   font-size: 28px;
+}
+p{
+    text-align: center;
+    color: black;
+    font-size: 18px;
+    padding-top: 15px;
+}
+.service-item{
+    margin-top: 60px;
+    float: left;
+    width: 33.3%;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 10px;
+    border-color: tomato;
+}
+.service-item span{
+    border-radius: 20px 0px;
+    width:60px;
+    height: 60px;
+    display: inline-block;
+    background: #6d1014;
+    color: #fff;
+    font-size: 40px;
+    line-height: 60px;
+    margin: auto;   
+}
+.service-item h3{
+    margin-top: 30px;
+    font-size: 25px;
+}
+.service-item p{
+    margin-top: 10px;
+    color: black;
+}
+/*about-section css*/
+.about-section {
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.about-section img {
+    float: left;
+    width: 300px;
+    height: auto;
+    border: 2px solid black;
+    margin-left: 90px;
+    
+    
+    
+}
+.about-section text{
+    float: right;
+    
+    margin-right: 90px;
+}
+.about-section text p{
+    padding-left: 10px;
+}
