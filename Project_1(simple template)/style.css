@@ -1,0 +1,376 @@
+/*common css*/
+*{
+    padding: 0;
+    margin: 0;
+}
+.clearfix::after{
+    content:"";
+    display: block;
+    clear: both;
+}
+
+.text-center{
+    text-align: center;
+}
+.websitesize{
+    max-width: 1200px;
+    margin: auto;
+    
+}
+/*menu css*/
+.main-menu{
+    background-image: linear-gradient(to right,#f6bfa1,#dc8ade);
+    height: 80px;
+    margin: auto;
+   
+}
+.logo{
+    max-width: 30%;
+    float: left;
+    text-align: center;
+    
+}
+.logo img{
+    padding-top: 10px;
+}
+.main-menu ul{
+  text-align: right;
+
+}
+.main-menu ul li{
+    display: inline-block;
+}
+.main-menu ul li a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 30px 19px;
+    max-width: 70%;
+    float: right;
+    color: white;
+    font-size: 18px;
+    text-transform: capitalize;
+   
+}
+.main-menu ul li a:hover{
+   background-color: #fff;
+   color: #f6bfa1;
+}
+
+.text{
+    float: left;
+    padding-top: 130px;
+    text-transform: capitalize;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.text h1{
+    font-size: 50px;
+}
+.text h2{
+    font-size: 50px;
+    color: #dc8ade;
+}
+.text h4{
+    color: #b7b7b7;
+    padding-bottom: 15px;
+}
+
+.text button{
+    margin-top: 15px;
+    padding: 12px 30px;
+    color: white;
+    background-image: linear-gradient(to right,#f6bfa1,#dc8ade);
+    border-radius: 7px;
+    text-transform: uppercase;
+}
+    
+.pic{
+    float: right;   
+}
+.pic img{
+    height: 500px;
+    width: auto;
+}
+/*banner css*/
+.txt{
+    text-align: center;
+}
+
+.txt h4{
+    color: #b7b7b7;
+    font-size: 18px;
+    padding-top: 30px;
+}
+.txt h2{
+    color: #dc8ade;
+    font-size: 35px;
+    text-transform: capitalize;
+   
+}
+/*services css*/
+.icon-4{
+    float: left;
+    width: 25%;
+    text-align: center;
+    padding-top: 60px;
+
+}
+.icon-4 h3{
+    padding-top: 30px;
+    padding-bottom: 15px;
+    color: black;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+
+.icon-4 p{
+    padding-top: 10px;    
+    color: #b7b7b7;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+/*cources css*/
+.cources{
+    background-color: red;
+}
+.div1-text{
+    text-align: center;
+    
+}
+.div1-text h2{
+    color: #b7b7b7;
+    font-size: 18px;
+    padding-top: 150px;    
+}
+.div1-text h3{
+    font-size: 30px;
+    text-transform: capitalize;
+    color: #dc8ade;
+    padding-bottom: 20px;
+    padding-top: 10px;
+
+}
+.div1-text p{
+    color: #b7b7b7;
+}
+
+.courcespart_2{
+    padding-top: 60px;
+}
+
+.left h2{
+    border: 1px solid #ddd;
+
+}
+.left{
+    float: left;
+    width: 30%;
+}
+.left h3{
+    background-color: #fff;
+    border: 2px solid #ecd4ec;
+    margin-right: 90px;
+    margin-bottom: 40px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.left h3:hover{
+    border: 2px solid #dc8ade; 
+    color: #dc8ade;
+}
+.middle{
+    float: left;
+    width: 30%;
+}
+.middle img{
+    height: 300px;
+    width: 250px;
+    border-left: 1px solid #ddd;
+    border-radius: 8px;
+}
+.right{
+    float: right;
+    width: 40%;
+    
+}
+.right h3{
+    padding-bottom: 15px;
+    padding-top: 20px;
+}
+.right p{
+    padding-bottom: 30px;
+    color: #b7b7b7;
+}
+.right h5{
+    padding-top: 20px;
+    font-size: 18px;
+    color: #dc8ade;
+    text-transform: capitalize;
+    margin-bottom: 150px;
+}
+/*middle banner css*/
+.middle-banner{
+    background-image: linear-gradient(to right,#f6bfa1,#dc8ade);
+}
+.image{
+    float: left;
+    width: 50%;
+}
+.image img{
+    height: 250px;
+    width: 250px;
+    border-radius: 8px;
+    margin-top: 70px;
+    margin-left: 230px;
+    border: 40px solid white;    
+}
+.midbanner-text{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.midbanner-text h5{
+    color: white;
+    padding-bottom: 18px;
+}
+.midbanner-text h1{
+    color: white;
+    padding-bottom: 18px;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.midbanner-text h2{
+    color: white;
+    padding-bottom: 18px;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: -15px;
+}
+.midbanner-text p{
+    color: white;
+    font-size: 14px;
+
+}
+.midbanner-text button{
+    padding: 12px 30px;
+    color: #dc8ade;
+    background-color: #fff;
+    border-radius: 7px;
+    text-transform: uppercase;
+    margin-top: 25px;
+}
+/*testmonial css*/
+.first-text{
+    padding-top: 100px;
+    text-align: center;
+}
+.first-text h1{
+    color: #dc8ade;
+    padding-bottom: 50px;
+    text-transform: capitalize;
+}
+.first-text h4{
+    color: #b7b7b7;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.tetimonial-description .div-1{
+    float: left;
+    width: 33%;
+}
+.div-1 p{
+    color: #b7b7b7;
+    padding-bottom: 20px;
+    padding-left: 60px;
+}
+.div-1 h4{
+    color: #dc8ade;
+    font-size: 12px;
+    padding-top: 5px;
+    text-transform: capitalize;
+    padding-left: 60px;
+    padding-bottom: 150px;
+    
+}
+.div-1 h2{
+    text-transform: capitalize;
+    padding-left: 60px;
+}
+/*contuct us css*/
+.contuctus h4{
+    text-align: center;
+    text-transform: capitalize;
+    color: #b7b7b7;
+}
+.contuctus h1{
+    text-align: center;
+    text-transform: capitalize;
+    color: #dc8ade;
+}
+.contuctus image img{
+    border: 4px solid #dc8ade;
+}
+.contuct-form{
+    width: 230px;
+    height: 251px;
+    margin-top: 112px;
+}
+.image{
+    float: left;
+    width: 50%;
+}
+.contuct-form{
+    float: right;
+    width: 50%;
+}
+.form{
+    margin-top: 37px;
+}
+.contuct-form h2{
+    text-transform: capitalize;
+    color: #dc8ade;
+    margin-top: -8px;
+    padding-bottom: 12px;
+
+
+}
+.contuct-form p{
+    padding-top: 16px;
+    margin-top: -15px;
+    color: #b7b7b7;
+}
+.contuct-form button{
+    margin-top: 25px;
+    padding: 10px 30px;
+    background-image: linear-gradient(to right,#f6bfa1,#dc8ade);
+    border-radius: 7px;
+    color: white;
+    text-transform: uppercase;
+}
+.footer{
+    background-image: linear-gradient(to right,#f6bfa1,#dc8ade); 
+    padding: 20px 30px;
+    margin-top: 80px;
+}
+.icon{
+    float: left;
+    width: 50%;
+}
+.footer-text {
+    float: right;
+    width: 50%;
+    margin-top: 13px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #ddd;
+}
+.icon img{
+    text-align: center;
+    margin: 20px auto;
+    color: #dc8ade;
+    margin-left: 20px
+}
