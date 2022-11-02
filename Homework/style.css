@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.full-website{
+    background: url(images/banner2.jpg) black no-repeat scroll center;
+    background-size: cover;
+    height: 600px; 
+    position: relative; 
+
+}
+
+.logo{
+    width: 30%;
+    float: left; 
+}
+.logo h2{
+    text-transform: capitalize;
+    color: white;
+    padding-top: 20px;
+    padding-left: 30px;
+    font-size: 40px;
+    font-family: fantasy;
+}
+ul{
+    text-align: right;
+}
+ul li{ 
+    list-style: none;
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    display: inline-block;
+    padding:30px 30px;
+    color: white;
+    font-size: 20px;
+}
+ul li:hover a{
+    color: green;
+    transition: .3s;
+}
+.center-text h2{
+   position: absolute;
+   top: 53%;
+   left: 47%;
+   transform: translate(-40%,-40%);
+   color: white;
+   text-transform: uppercase;
+}
+.center-text p{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 18px;   
+ }
